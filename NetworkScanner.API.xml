@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NetworkScanner.API</name>
+    </assembly>
+    <members>
+        <member name="T:NetworkScanner.API.Controllers.DeviceController">
+            <summary>
+            Found Device list information.
+            </summary>
+        </member>
+        <member name="M:NetworkScanner.API.Controllers.DeviceController.#ctor(Microsoft.Extensions.Logging.ILogger{NetworkScanner.API.Controllers.DeviceController},NetworkScanner.SharedKernel.Interfaces.IRepository)">
+            <summary>
+            Class constructor
+            </summary>
+            <param name="logger"></param>
+            <param name="repository"></param>
+        </member>
+        <member name="M:NetworkScanner.API.Controllers.DeviceController.GetAsync">
+            <summary>
+            Returns a list of Found Device on current network.
+            </summary>
+            <returns>
+            Returns all found network devices.
+            </returns>
+            <remarks>
+            a list of devices from the database
+            </remarks>
+            <reponse code="200">The full list of devices. </reponse>
+            <response code="404">The specified devices does not exist, or the current user does not have access to it.</response>
+        </member>
+        <member name="T:NetworkScanner.API.Controllers.OuiController">
+            <summary>
+            Load full list of OUI information from local database.
+            </summary>
+        </member>
+        <member name="M:NetworkScanner.API.Controllers.OuiController.#ctor(Microsoft.Extensions.Logging.ILogger{NetworkScanner.API.Controllers.OuiController},NetworkScanner.SharedKernel.Interfaces.IRepository)">
+            <summary>
+            Class Constructor
+            </summary>
+            <param name="logger"></param>
+            <param name="repository"></param>
+        </member>
+        <member name="M:NetworkScanner.API.Controllers.OuiController.GetAsync">
+            <summary>
+            Returns a list of OUI on current network.
+            </summary>
+            <response code="200">Returns items</response>
+            <response code="400">If the item is null</response>
+        </member>
+        <member name="M:NetworkScanner.API.Controllers.OuiController.GetHexAsync(System.String)">
+            <summary>
+            Searches for OUI values based on provided MAC address.
+            </summary>
+            <param name="search" example="C0-64-C6"> last 4 parts of mac address.</param>
+            <response code="200">Returns NIC manufacture(s) based on provided search hex value </response>
+            <response code="400">If the item throws an error return details </response>
+        </member>
+        <member name="M:NetworkScanner.API.Controllers.OuiController.GetBase16Async(System.String)">
+            <summary>
+            Searches for OUI values based on provided MAC address.
+            </summary>
+            <param name="search" example="C064C6"> last 4 parts of mac address.
+            </param>
+            <returns> IEnumerable of results for Base16 IP Addresses. </returns>
+            <response code="200">Returns NIC manufacture(s) based on provided search Base16 value </response>
+            <response code="400">If the item throws an error return details </response>
+        </member>
+        <member name="T:NetworkScanner.API.Program">
+            <summary>
+            Main starting program.
+            </summary>
+        </member>
+        <member name="M:NetworkScanner.API.Program.Main(System.String[])">
+            <summary>
+            Main class
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="T:NetworkScanner.API.Startup">
+            <summary>
+            Startup Class
+            </summary>
+        </member>
+        <member name="M:NetworkScanner.API.Startup.#ctor">
+            <summary>
+            Class Constructor
+            </summary>
+        </member>
+        <member name="P:NetworkScanner.API.Startup.Configuration">
+            <summary>
+            Configuration Settings.
+            </summary>
+        </member>
+        <member name="M:NetworkScanner.API.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            This method gets called by the runtime. Use this method to add services to the
+            container.
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:NetworkScanner.API.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <summary>
+            This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+        </member>
+    </members>
+</doc>
