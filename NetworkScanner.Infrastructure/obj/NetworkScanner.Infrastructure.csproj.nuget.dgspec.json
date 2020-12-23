@@ -1,0 +1,234 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Projects\\Personal\\Scanner\\Api\\NetworkScanner.Infrastructure\\NetworkScanner.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "F:\\Projects\\Personal\\Scanner\\Api\\NetworkScanner.Domain\\NetworkScanner.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projects\\Personal\\Scanner\\Api\\NetworkScanner.Domain\\NetworkScanner.Domain.csproj",
+        "projectName": "NetworkScanner.Domain",
+        "projectPath": "F:\\Projects\\Personal\\Scanner\\Api\\NetworkScanner.Domain\\NetworkScanner.Domain.csproj",
+        "packagesPath": "C:\\Users\\jPahl\\.nuget\\packages\\",
+        "outputPath": "F:\\Projects\\Personal\\Scanner\\Api\\NetworkScanner.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jPahl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {},
+          "https://www.myget.org/F/webapinetcore/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "F:\\Projects\\Personal\\Scanner\\Api\\NetworkScanner.SharedKernel\\NetworkScanner.SharedKernel.csproj": {
+                "projectPath": "F:\\Projects\\Personal\\Scanner\\Api\\NetworkScanner.SharedKernel\\NetworkScanner.SharedKernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Projects\\Personal\\Scanner\\Api\\NetworkScanner.Infrastructure\\NetworkScanner.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projects\\Personal\\Scanner\\Api\\NetworkScanner.Infrastructure\\NetworkScanner.Infrastructure.csproj",
+        "projectName": "NetworkScanner.Infrastructure",
+        "projectPath": "F:\\Projects\\Personal\\Scanner\\Api\\NetworkScanner.Infrastructure\\NetworkScanner.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\jPahl\\.nuget\\packages\\",
+        "outputPath": "F:\\Projects\\Personal\\Scanner\\Api\\NetworkScanner.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jPahl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {},
+          "https://www.myget.org/F/webapinetcore/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "F:\\Projects\\Personal\\Scanner\\Api\\NetworkScanner.Domain\\NetworkScanner.Domain.csproj": {
+                "projectPath": "F:\\Projects\\Personal\\Scanner\\Api\\NetworkScanner.Domain\\NetworkScanner.Domain.csproj"
+              },
+              "F:\\Projects\\Personal\\Scanner\\Api\\NetworkScanner.SharedKernel\\NetworkScanner.SharedKernel.csproj": {
+                "projectPath": "F:\\Projects\\Personal\\Scanner\\Api\\NetworkScanner.SharedKernel\\NetworkScanner.SharedKernel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.1.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.1.0, )"
+            },
+            "LiteDB": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Projects\\Personal\\Scanner\\Api\\NetworkScanner.SharedKernel\\NetworkScanner.SharedKernel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Projects\\Personal\\Scanner\\Api\\NetworkScanner.SharedKernel\\NetworkScanner.SharedKernel.csproj",
+        "projectName": "NetworkScanner.SharedKernel",
+        "projectPath": "F:\\Projects\\Personal\\Scanner\\Api\\NetworkScanner.SharedKernel\\NetworkScanner.SharedKernel.csproj",
+        "packagesPath": "C:\\Users\\jPahl\\.nuget\\packages\\",
+        "outputPath": "F:\\Projects\\Personal\\Scanner\\Api\\NetworkScanner.SharedKernel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jPahl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {},
+          "https://www.myget.org/F/webapinetcore/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "LiteDB": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

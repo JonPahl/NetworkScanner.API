@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "agRFdttKoQUORQFhg7VdIwrXxbJ0CwoLWD4aEYCqx8LbFRWz08dYf9iQSBkblbeDhwV/aQU4Fx/k2TADYCdOfw==",
+  "success": true,
+  "projectFilePath": "F:\\Projects\\Personal\\Scanner\\Api\\NetworkScanner.SharedKernel\\NetworkScanner.SharedKernel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jPahl\\.nuget\\packages\\litedb\\5.0.9\\litedb.5.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

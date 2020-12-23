@@ -28,7 +28,6 @@ namespace NetworkScanner.API
             var builder = new ConfigurationBuilder()
                         .SetBasePath(Directory.GetParent(AppContext.BaseDirectory).FullName)
                         .AddJsonFile("appsettings.json", false);
-
             Configuration = builder.Build();
         }
 

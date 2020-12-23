@@ -1,0 +1,9 @@
+C:\Users\jPahl\source\repos\NetworkScanner.SharedKernel\bin\Debug\netcoreapp3.1\NetworkScanner.SharedKernel.deps.json
+C:\Users\jPahl\source\repos\NetworkScanner.SharedKernel\bin\Debug\netcoreapp3.1\NetworkScanner.SharedKernel.dll
+C:\Users\jPahl\source\repos\NetworkScanner.SharedKernel\bin\Debug\netcoreapp3.1\NetworkScanner.SharedKernel.pdb
+C:\Users\jPahl\source\repos\NetworkScanner.SharedKernel\obj\Debug\netcoreapp3.1\NetworkScanner.SharedKernel.csprojAssemblyReference.cache
+C:\Users\jPahl\source\repos\NetworkScanner.SharedKernel\obj\Debug\netcoreapp3.1\NetworkScanner.SharedKernel.AssemblyInfoInputs.cache
+C:\Users\jPahl\source\repos\NetworkScanner.SharedKernel\obj\Debug\netcoreapp3.1\NetworkScanner.SharedKernel.AssemblyInfo.cs
+C:\Users\jPahl\source\repos\NetworkScanner.SharedKernel\obj\Debug\netcoreapp3.1\NetworkScanner.SharedKernel.csproj.CoreCompileInputs.cache
+C:\Users\jPahl\source\repos\NetworkScanner.SharedKernel\obj\Debug\netcoreapp3.1\NetworkScanner.SharedKernel.dll
+C:\Users\jPahl\source\repos\NetworkScanner.SharedKernel\obj\Debug\netcoreapp3.1\NetworkScanner.SharedKernel.pdb

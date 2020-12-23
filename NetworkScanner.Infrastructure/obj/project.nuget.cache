@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "mBh+39b7EyYYyrjZZPtjp8aHgmn1lTQgz1oIjiuaHi5oScRR6u8/E+94q/npSMG9YE54jp3PjnqGxlaZuvXj7g==",
+  "success": true,
+  "projectFilePath": "F:\\Projects\\Personal\\Scanner\\Api\\NetworkScanner.Infrastructure\\NetworkScanner.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jPahl\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
+    "C:\\Users\\jPahl\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",
+    "C:\\Users\\jPahl\\.nuget\\packages\\litedb\\5.0.9\\litedb.5.0.9.nupkg.sha512",
+    "C:\\Users\\jPahl\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\jPahl\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\jPahl\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\jPahl\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\jPahl\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
